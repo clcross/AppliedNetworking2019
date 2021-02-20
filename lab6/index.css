@@ -1,0 +1,58 @@
+button {
+	cursor: pointer;
+	appearance: none;
+	border-radius: 30px;
+	font-size: 1.25rem;
+	padding: 0.75rem 1rem;
+	border: 1px solid #00aeff;
+	background-color: #000f53;
+    color: #ffae00;
+    margin: 50px;
+}
+div.buttoncenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+	background: rgb(161, 161, 161);
+	color: red;
+	padding: 20px;
+	display: inline-flex;
+	width: 35%;
+}
+table.store{
+	width: 60%;
+}
+table.store td{
+	padding: 10px;
+	margin: 10px;
+	border: none;
+}
+table.invoice{
+	border: 0px;
+    border-collapse: collapse;
+	border-spacing: 0px;
+	font-size: 16px;
+	width: 18%
+}
+table.invoice td{
+	border: 1px solid black;
+    margin: 0;
+    padding: 10px;
+}
+table.invoice th{
+	border: 1px solid black;
+    margin: 0;
+    padding: 10px;
+}
+table.invoice tr{
+	border: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+table.invoice td.tot{
+	border: none;
+    margin: 0;
+	padding: 10px;
+}

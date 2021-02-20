@@ -1,0 +1,67 @@
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+    text-align: left;
+    padding-right: 40px;
+    padding-left: 10px;
+    float: left;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+    padding-left: 30px;
+}
+
+#toc_container li, #toc_container ol, #toc_container ol li{
+    list-style: outside none none !important;
+    margin-bottom: 5px;
+}
+
+h2{
+    text-align: center;
+}
+
+table{
+    float: right;
+    padding-right: 20px;
+}
+
+table.team td{
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+table.team th{
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+table.team{
+    border: 0px;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 80%;
+}
+table.log td{
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+table.log th{
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+table.log{
+    border: 0px;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 80%;
+    margin-top: 40px;
+}

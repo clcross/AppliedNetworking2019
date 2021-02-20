@@ -1,0 +1,57 @@
+div.frame {
+    background-color: #EEEEEE;
+    width: 1300px;
+    overflow: auto;
+    padding-bottom: 40px;
+    padding-top: 0;
+}
+
+div.boxex {
+    width: 400px;
+    height: 400px;
+    background-color: #EECCCC;
+    overflow: auto;
+    margin: 5px;
+    padding: 2px;
+    float: left;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+img {
+    float: right;
+    padding: 0px;
+    margin: 0px;
+}
+
+p.coltitle {
+    font-size: 16pt;
+}
+p.pagetitle {
+    font-size: 24pt;
+    margin-top: 2px;
+}
+
+div.boxex2 {
+    width: 400px;
+    height: 400px;
+    background-color: #CCEECC;
+    overflow: auto;
+    margin: 5px;
+    padding: 2px;
+    float: left;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+div.boxex3 {
+    width: 400px;
+    height: 400px;
+    background-color: #CCCCEE;
+    overflow: auto;
+    margin: 5px;
+    padding: 2px;
+    float: left;
+    padding-right: 0;
+    padding-top: 0;
+}

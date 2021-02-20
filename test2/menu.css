@@ -1,0 +1,49 @@
+ul{
+    background-color: #909090;
+    color: blue;
+    padding: 15px;
+    margin: 0px;
+    width: 280px
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+ul li ul {
+    display: none;
+}
+
+ul li ul li:hover a{
+    background-color: #303030;
+    color: white;
+    text-decoration: none;
+}
+
+
+ul li:hover ul {
+    display: block;
+    position: absolute;
+    left: 115px;
+    top: 50px;
+    width: 135px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-top: 20px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    padding: 15px;
+    margin: 0px;
+}
+ul li ul li{
+    margin-bottom: 20px;
+}
+
+ul li:hover ul li {
+    display: block;
+}

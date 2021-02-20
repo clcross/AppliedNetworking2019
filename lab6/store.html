@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Store</title>
+    <link rel="stylesheet" type="text/css" href="/mystyle.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <h1 align="center">
+        <a href="/index.html">Cameron's Website</a>
+    </h1>
+    <nav>
+        <ul>
+            <li><a href="/lab1/index.html">Lab 1</a></li>
+            <li><a href="/lab2/index.html">Lab 2</a></li>
+            <li><a href="/lab3/index.html">Lab 3</a></li>
+            <li><a href="/lab4/index.html">Lab 4</a></li>
+            <li><a href="/lab5/index.html">Lab 5</a></li>
+            <li><a href="/lab6/index.html">Lab 6</a></li>
+            <li><a href="/lab7/index.html">Lab 7</a></li>
+            <li><a href="/lab8/index.html">Lab 8</a></li>
+        </ul>
+
+    </nav>
+    <hr />
+    <h1>CSCI Online Store</h1>
+    <form action="invoice.php" method="post">
+        <table class="store" align="center">
+            <tr align="left">
+                <td>
+                    <img src="desktop.jpeg" width="200px" height="200px" alt=""><br />
+
+                    <input type='checkbox' name='merch[]' value='0' />$1234<br />
+                </td>
+                <td>
+                    <img src="laptop.jpeg" width="300px" height="200px" alt=""><br />
+
+                    <input type='checkbox' name='merch[]' value='1' />$2345<br />
+                </td>
+            </tr>
+            <tr align="left">
+                <td>
+                    <img src="harddrive.jpeg" width="200px" height="200px" alt=""><br />
+                    <input type='checkbox' name='merch[]' value='2' />$246<br />
+                </td>
+                <td>
+                    <img src="ram.jpeg" width="300px" height="200px" alt=""><br />
+                    <input type='checkbox' name='merch[]' value='3' />$79<br />
+                </td>
+            </tr>
+        </table>
+        <input type='submit' name='submit' value='Checkout' />
+    </form>
+
+</body>
+
+</html>

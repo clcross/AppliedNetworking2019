@@ -1,0 +1,20 @@
+button {
+	cursor: pointer;
+	appearance: none;
+	border-radius: 30px;
+	font-size: 1.25rem;
+	padding: 0.75rem 1rem;
+	border: 1px solid #00aeff;
+	background-color: #000f53;
+    color: #ffae00;
+    margin: 10px;
+    width: 220px;
+}
+div{
+    text-align: center;
+    align-items: center;
+}
+table{
+    text-align: center;
+    align-self: center;
+}

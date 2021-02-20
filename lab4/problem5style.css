@@ -1,0 +1,24 @@
+ol li {
+    float: none;
+    list-style-type: upper-roman;
+}
+
+ol li ol li {
+    list-style-type: upper-alpha;
+}
+
+ol li ol li ol li {
+    list-style-type: arabic-indic;
+}
+
+ol li.compact {
+    background-color: pink;
+}
+
+ol li.midsize {
+    background-color: blue;
+}
+
+ol li.sport {
+    background-color: red;
+}

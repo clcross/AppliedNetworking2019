@@ -1,0 +1,155 @@
+.bookmarks h4 {
+    font-size: 18px;
+}
+
+.bookmarks .actions-container {
+    margin-top: 20px;
+}
+.bookmarks .actions-container .actions-dropdown,
+.bookmarks .actions-container .actions-dropdown-label {
+    margin-bottom: 5px;
+}
+.bookmarks .bookmarks-order-container {
+    padding-top: 20px;
+}
+
+.bookmarks .view-all-bookmarks {
+  float: right; }
+
+.bookmarks .card .glyphicons.glyphicons-eye-close.title-icon {
+    font-size: 24px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.bookmarks .search-input-wrapper .search-input {
+    min-width: 200px;
+}
+
+.bookmarks .search-input-wrapper .input-group .btn {
+    border: 1px solid transparent;
+}
+
+/* List View */
+.bookmarks .list-view .set-name-label {
+    font-size: 16px;
+}
+
+.bookmarks .footable .check-box-header {
+    width: 5%;
+}
+
+.bookmarks .footable .title-header {
+    width: 40%;
+}
+
+.bookmarks .footable .description-header {
+    width: 45%;
+}
+
+.bookmarks .footable .delete-header {
+    width: 10%;
+}
+
+
+/* File Cabinet Grid Styles */
+
+.portlet-grid .portlet .assignmentGrid td {
+    padding: 2px 5px 3px 5px;
+}
+
+table.assignmentGrid > * > tr > td,
+table.assignmentGrid > tr > td {
+  padding: 2px 5px 3px 5px; }
+
+table.assignmentGrid > * > tr > th,
+table.assignmentGrid > tr > th {
+  padding: 2px 5px 3px 5px;
+  font-weight: normal;
+  font-size: 100%; }
+
+table.assignmentGrid.itemHover tr:hover,
+table.assignmentGrid.itemHover tr:hover td {
+  border: 1px solid #1851AD;
+  background-color: #D6E2FC; }
+
+table.assignmentGrid.itemHover tr:hover .modalDiv tr:hover,
+table.assignmentGrid.itemHover tr:hover td .modalDiv td {
+  border: inherit;
+  background-color: inherit; }
+
+table.assignmentGrid.itemHover tr.headerAssignmentGrid:hover {
+  border: 0px;
+  cursor: default; }
+
+table.assignmentGrid {
+  border: 1px solid #BABABA; }
+
+table.assignmentGrid th {
+  border: 1px solid #BABABA;
+  background-color: #DEDFDE;
+  white-space: nowrap;
+  font-weight: normal; }
+
+table.assignmentGrid th {
+  padding: 3px 3px 3px 7px;
+  border-bottom-width: 0px; }
+
+table.assignmentGrid td {
+  border: 1px solid #BABABA;
+  padding: 0px 3px 0px 7px;
+  border-bottom-width: 0px;
+  height: 26px; }
+
+.altAssignmentGrid, .altRow {
+  background-color: #EFEFEF; }
+
+table.assignmentGrid .gridGradeColumn {
+  width: 215px;
+  vertical-align: middle; }
+
+table.assignmentGride .gridStudentColumn {
+  width: 250px; }
+
+table.assignmentGrid a.inactiveAssignment {
+  color: black;
+  font-style: italic; }
+
+.bookmarks .footable-container  .collapse-list {
+    background: transparent; 
+    border: 0; 
+    float: right;
+}
+
+table.assignmentGrid td.formatType, table.reorderAssignment td.formatType {
+  padding-left: 30px;
+  background-repeat: no-repeat;
+  background-position: 5px; }
+
+table.assignmentGrid span.requiredType {
+  font-style: italic; }
+
+table.assignmentGrid span.requiredType img {
+  margin-bottom: -3px; }
+
+table.assignmentGrid {
+  width: auto; }
+
+table.headerAssignmentGrid {
+  height: auto; }
+
+/* END File Cabinet Grid Styles */
+
+/* Mobile */
+@media screen and (max-width: 1025px) {
+    .bookmarks .delete-set-buttons {
+        float: left;
+        padding-top: 10px;
+    }
+    .bookmarks .footable .check-box-header {
+        width: 10%;
+    }
+    .bookmarks .view-icon {
+        margin-top: 10px;
+    }
+}

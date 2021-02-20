@@ -1,0 +1,45 @@
+table {
+    border: 0px;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table td {
+    border: #000000 solid 1px;
+    padding: 0px;
+    margin: 0px;
+}
+
+table td#UGA {
+    color: red;
+}
+
+table td#FLO {
+    color: blue;
+}
+
+table td#ML {
+    color: orangered;
+}
+
+table td#OS {
+    color: maroon;
+}
+
+table td#CLEM {
+    color: orange;
+}
+
+table td#AM {
+    color: maroon;
+}
+
+table td#WIN {
+    font-size: 50px;
+}
+
+table td#LOSS {
+    font-size: 28px;
+}
