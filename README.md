@@ -1,7 +1,7 @@
 # Networking-Group-2019
 # Course Code: 332
 
-This is the repository for my group work in Applied Networking using HTML, CSS, and other languages.
+This is the repository for my work in Applied Networking using HTML, CSS, and other languages.
 
 # What I Learned
 
